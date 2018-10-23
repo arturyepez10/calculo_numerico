@@ -12,3 +12,5 @@ function inv = inversa(A)
         inv = [inv,x];
     end
 endfunction
+
+%ESTA FUNCIÓN CACLULA LA INVERSA DE UNA MATRIZ DE MANERA POCO EFICIENTE
