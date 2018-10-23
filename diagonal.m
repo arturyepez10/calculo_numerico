@@ -7,3 +7,5 @@ function [x] = diagonal(A, b)
     x(i) = b(i)/A(i,i);
   end
 endfunction
+
+%ESTA FUNCIÓN CALCULA EL VALOR DE LA DIAGONAL DE UNA MATRIZ
