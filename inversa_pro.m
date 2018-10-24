@@ -15,3 +15,5 @@ function inv = inversa_pro(A)
     end
     
 endfunction
+
+% ESTA FUCNIÓN CALCULA DE FORMA EFICIENTE LA AMTRIZ INVERSA A UAN AMATRIZ A DADA
