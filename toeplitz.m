@@ -16,3 +16,5 @@ function T = toeplitz(V)
       end
     end
 endfunction
+
+%ESTA FUNCIÓN CREA UNA MATRIZ DE TOEPLITZ DADO UN VECTOR V
