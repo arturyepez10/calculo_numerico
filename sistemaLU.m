@@ -1,4 +1,4 @@
-#
+# RESOLUCIÓN DE SISTEMA DE ECUACIONES POR LU
 
 function x = sistemaLU(A,b)
     n = length(A);
