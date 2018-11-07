@@ -15,7 +15,7 @@ function [xn k] = jacobi(A, b, xv, maxit, tol)
       end
       xn(i)= (b(i)-suma1-suma2)/A(i,i);
     end
-    if ((norm(xv-xn,inf)<tol)
+    if ((norm(xv-xn,inf)<tol))
       return
     end
     xv = xn;
