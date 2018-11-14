@@ -1,4 +1,4 @@
-# METODO DE POTENCIA
+# METODO DE POTENCIA PARA AUTOVALOR MAS GRANDE
 
 function [x k r] = potencia(A, error, x, itmax)
   for k=1:1:itmax

@@ -1,4 +1,5 @@
 # METODO DE POTENCIA PARA AUTOVALOR MAS PEQUEÑO
+
 function [x k r] = potencia_inv(A,error,x,itmax)
   A = LU(A);
   for k=1:1:itmax
