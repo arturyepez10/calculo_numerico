@@ -3,7 +3,7 @@
 function [x k r] = potencia_inv_dez(A, error, u, itmax)
   n = length(A);
   x = ones(n,1);
-  dezpla = u .* eye(n,n);
+  dezpla = u * eye(n,n);
   A = A - dezpla;
   A = LU(A);
   for k=1:1:itmax
